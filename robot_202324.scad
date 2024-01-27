@@ -15,6 +15,6 @@ translate([24*8+24, 2, 74]) rotate([0, -90, -90]) Uchannel(7);
 
 /* wheels */
 translate([24*2+24, -25, 50]) rotate([90, 0, 0]) MecanumWheel();
-translate([24*2+24, 25+50+48+24*8+24, 50]) rotate([90, 0, 0]) MecanumWheel();
-translate([24*15+24, -25, 50]) rotate([90, 0, 0]) MecanumWheel();
+translate([24*2+24, 25+50+48+24*8+24, 50]) rotate([90, 0, 0]) scale([1,-1,1]) MecanumWheel();
+translate([24*15+24, -25, 50]) rotate([90, 0, 0]) scale([1,-1,1]) MecanumWheel();
 translate([24*15+24, 25+50+48+24*8+24, 50]) rotate([90, 0, 0]) MecanumWheel();
